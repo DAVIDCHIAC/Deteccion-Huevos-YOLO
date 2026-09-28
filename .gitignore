@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Datos y claves
+*.pem
+*.key
+.env
+
+# Dataset y artefactos de entrenamiento
+dataset/
+runs/
+Self-Collected Dataset/
+yolov8n.pt
+*.log
+*.err
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Ultralytics
+.yolo-cache/
+.ultralytics/
